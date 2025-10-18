@@ -45,5 +45,12 @@ public class Application {
             }
         }
 
+        // 덧셈 연산 수행 및 결과 출력
+        int sum = 0;
+        for (int value : values) {
+            sum += value;
+        }
+        System.out.println("결과 : " + sum);
+
     }
 }
