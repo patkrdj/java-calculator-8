@@ -1,8 +1,6 @@
 # java-calculator-precourse
-<hr/>
 
 ## 과제 진행 요구 사항
-<hr/>
 
 - 미션은 문자열 [덧셈 계산기 저장소](https://github.com/woowacourse-precourse/java-calculator-8)를 포크하고 클론하는 것으로 시작한다.
 - **기능을 구현하기 전 `README.md`에 구현할 기능 목록을 정리**해 추가한다.
@@ -11,7 +9,6 @@
 - 자세한 과제 진행 방법은 프리코스 진행 가이드 문서를 참고한다.
 
 ## 기능 요구 사항
-<hr/>
 
 입력한 문자열에서 숫자를 추출하여 더하는 계산기를 구현한다.
 - 쉼표(,) 또는 콜론(:)을 구분자로 가지는 문자열을 전달하는 경우 구분자를 기준으로 분리한 각 숫자의 합을 반환한다.
@@ -41,7 +38,6 @@
 ```
 
 ## 프로그래밍 요구 사항
-<hr/>
 
 - JDK 21 버전에서 실행 가능해야 한다.
 - 프로그램 실행의 시작점은 `Application`의 `main()`이다.
@@ -56,7 +52,6 @@
   - 사용자가 입력하는 값은 `camp.nextstep.edu.missionutils.Console`의 `readLine()`을 활용한다.
 
 ## 기능 구현 사항
-<hr/>
 
 - 문자열 입력 받기
   - [MUST] `camp.nextstep.edu.missionutils.Console`의 `readLine()`을 사용하여 문자열을 입력받아야 한다.
