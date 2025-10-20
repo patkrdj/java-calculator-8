@@ -16,12 +16,7 @@ public class StringCalculator {
         NumberParser numberParser = new NumberParser(input, delimiters);
         int[] values = numberParser.getValues();
 
-        // 덧셈 연산 수행 및 결과 출력
-        int sum = 0;
-        for (int value : values) {
-            sum += value;
-        }
-
-        return sum;
+        // 덧셈 연산 수행
+        return SumCalculator.getSum(values);
     }
 }
